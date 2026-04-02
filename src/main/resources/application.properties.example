@@ -1,0 +1,16 @@
+spring.rabbitmq.host=localhost
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=guest
+spring.rabbitmq.password=guest
+
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=YOUR_EMAIL@gmail.com
+spring.mail.password=YOUR_APP_PASSWORD
+
+rabbitmq.exchange.name=notification.exchange
+rabbitmq.queue.email=email.queue
+rabbitmq.queue.sms=sms.queue
+rabbitmq.queue.log=log.queue
+rabbitmq.exchange.dlx=dlx.exchange
+rabbitmq.queue.dlq=dead.letter.queue
